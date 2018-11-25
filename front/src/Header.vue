@@ -135,7 +135,8 @@ let styles = `
    background-color: #fff;
    box-shadow: 0 0 10px 0px #676767;
 `;
-window.addEventListener('scroll', function(e) {
+
+const scrollEvent = _.throttle(function(e) {
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 
   if (scrollTop > 24) {
@@ -143,7 +144,8 @@ window.addEventListener('scroll', function(e) {
   } else {
     document.querySelector('header').removeAttribute('style');
   }
-})
+}, 300)
+window.addEventListener('scroll', scrollEvent)
 
 </script>
 
