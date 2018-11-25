@@ -46,7 +46,7 @@
             检索结果：
           </p>
           <div v-if="cheaters.length !== 0">
-            <p v-for="cheater in cheaters">
+            <p v-for="cheater in cheaters" :key="cheater.id">
               <router-link :to="{name: 'cheater', params: {game: `${cheater.game}`, uid: `${cheater.uId}`}}">
                 <Tag>
                   {{ cheater.game }}

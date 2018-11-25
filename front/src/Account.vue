@@ -35,7 +35,7 @@
         </p>
         <table>
           <tbody>
-          <tr v-for="report in account.reports">
+          <tr v-for="report in account.reports" :key="report.id">
             <td>
             <span>
           <Tag color="primary">

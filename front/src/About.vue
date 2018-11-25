@@ -28,7 +28,7 @@
       </p>
 
       <div class="clan">
-        <p v-for="d in clan">{{ d }}</p>
+        <p v-for="d in clan" :key="d">{{ d }}</p>
       </div>
     </div>
   </div>

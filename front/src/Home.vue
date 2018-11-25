@@ -6,7 +6,7 @@
       <p>bfban.com  于 2018年11月4日 上线，收到 <b>{{ site.report }}</b> 次举报，已石锤了 <b>{{ site.cheater }}</b> 个挂壁，感谢大家的共同努力！</p>
       <table>
         <tbody>
-          <tr v-for="activity in activities">
+          <tr v-for="activity in activities" :key="activity.id">
             <td nowrap>
               <Time v-if="activity.createDatetime" :time="activity.createDatetime"></Time>
             </td>
@@ -82,7 +82,7 @@
       <p>
         <!--<b>本站管理员：</b>-->
       </p>
-      <p v-for="m in manager">
+      <p v-for="m in manager" :key="m.id">
 
         <a v-if="m.link" target="_blank" :href="m.link">{{ m.name }}</a>
         <span v-else>{{ m.name }}</span>
