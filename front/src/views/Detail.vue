@@ -60,11 +60,17 @@
               <a v-show="`${g.game}` === 'bf1'" target="_blank" :href="`https://battlefieldtracker.com/bf1/profile/pc/${cheater.originId}`">
                 battlefieldtracker
               </a>
-              <a v-show="`${g.game}` === 'bf1'" target="_blank" :href="`http://bf1stats.com/pc/${cheater.originId}`">
+			  <a v-show="`${g.game}` === 'bf1'" target="_blank" :href="`http://bf1stats.com/pc/${cheater.originId}`">
                 bf1stats
+              </a>
+              <a v-show="`${g.game}` === 'bf1'" target="_blank" :href="`https://www.247fairplay.com/CheatDetector/${cheater.originId}`">
+                247fairplay
               </a>
               <a v-show="`${g.game}` === 'bfv'" target="_blank" :href="`https://battlefieldtracker.com/bfv/profile/origin/${cheater.originId}`">
                 battlefieldtracker
+              </a>
+			  <a v-show="`${g.game}` === 'bfv'" target="_blank" :href="`https://www.247fairplay.com/CheatDetector/${cheater.originId}`">
+                247fairplay
               </a>
             </p>
 
