@@ -103,6 +103,11 @@
           </a>
           在线生成举报文本
         </p>
+		<a target="_blank" href="https://www.247fairplay.com/">
+            247fairplay
+          </a>
+          快速查询标记当前ID在BF3、BF4中的战绩进行异常标记，查询联ban史
+        </p>
       </div>
 
 <br>
