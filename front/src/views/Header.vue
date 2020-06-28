@@ -32,7 +32,7 @@
           <router-link class="desktop-hide" v-if="isAdmin" :to="{name: 'dashboard'}">
             <Icon size="24" type="md-cog" />
           </router-link>
-
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=150 height=52 src="//music.163.com/outchain/player?type=2&id=1341520969&auto=0&height=32"></iframe>
         </div>
         <div class="search mobile-hide">
           <Input clearable search placeholder="支持搜索历史ID啦..." v-model="searchVal" @on-search="handleSearch" />
