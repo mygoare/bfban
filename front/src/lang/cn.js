@@ -2,13 +2,13 @@ export default {
   header: {
     index: '首页',
     about: '关于',
-    cheaters: '外挂公示',
-    report: '举报作弊',
+    cheaters: '公示',
+    report: '举报',
     signin: '登录',
     signup: '注册',
     signout: '注销',
     daily: 'ban日报',
-    dashboard: '管理后台',
+    dashboard: '后台',
   },
   footer: {
     author: '由 mygoare 开发',
