@@ -40,11 +40,11 @@
       <br>
       <h2>联系我们</h2>
       <p>
-        <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5PEqoDb">
-          527565465
+        <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=MaiwoIsn">
+          1104053054
         </a>
 
-        联ban局QQ群
+        举报QQ群
       </p>
       <p>
           mygoare@gmail.com 开发者邮箱
