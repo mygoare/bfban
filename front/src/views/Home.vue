@@ -99,21 +99,32 @@
         </p>
         <p>
           <a target="_blank" href="https://bf1.mygoare.com/">
-            战地1外挂举报助手
+            【推荐】战地1外挂举报助手
           </a>
           在线生成举报文本
         </p>
+		<a target="_blank" href="https://www.247fairplay.com/">
+            247fairplay
+          </a>
+          快速查询标记当前ID在BF3、BF4中的战绩进行异常标记，查询联ban史
+        </p>
+		<a target="_blank" href="https://bfban.lanzous.com/b01hhv5jg">
+            【推荐】战地PC/手机战绩速查工具
+          </a>
+          同时支持电脑手机快速查询战绩进行标记
+        </p>
+
       </div>
 
 <br>
       <h2>{{$t("home.howToUse.qqGroup")}}</h2>
       <div class="tools">
         <p>
-          <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5PEqoDb">
-            527565465
+          <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=IK90DpNX">
+            1104053054
           </a>
 
-          联ban局QQ群
+          举报QQ群
         </p>
       </div>
 
