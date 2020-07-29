@@ -122,7 +122,7 @@
           帮助你解决游戏平台问题的工具
         </p>
         <p>
-          <a target="_blank" href="https://app.bfban.com/">
+          <a target="_blank" href="https://app.bfban.com/public/www/">
             【推荐】BFBAN APP
           </a>
           BFBAN手机客户端
