@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "iview": "^3.5.4",
